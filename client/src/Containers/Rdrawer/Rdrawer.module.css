@@ -1,0 +1,7 @@
+.drawerpaper {
+    width: 30%;
+    box-shadow: none;
+    background-color: #dadbd3;
+    border-right: 2px solid lightgrey;
+    box-sizing: border-box;
+}

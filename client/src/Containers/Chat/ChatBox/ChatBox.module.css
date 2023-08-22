@@ -1,0 +1,29 @@
+.chatBox {
+    flex-grow: 2;
+    background: url("../../../Images//background.png");
+    background-repeat: repeat;
+    padding: 30px;
+    height: 300px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+}
+
+.chatBox::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chatBox::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 194, 194);
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    align-self: center;
+}

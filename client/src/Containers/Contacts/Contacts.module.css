@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.contactscontainer {
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.contacts {
+    flex-grow: 2;
+    background-color: white;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 1px;
+    scrollbar-width: none;
+}
+
+.contacts::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contacts::-webkit-scrollbar-thumb {
+    background-color: rgb(196, 194, 194);
+}

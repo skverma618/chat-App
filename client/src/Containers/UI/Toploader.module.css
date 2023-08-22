@@ -1,0 +1,9 @@
+.toploader {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    align-self: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}

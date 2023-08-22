@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.topbar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #ededed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    min-width: 6vw;
+    justify-content: space-around;
+}
